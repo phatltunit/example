@@ -1,6 +1,7 @@
 .idea/
 log*
-target
+target/**/
+target/**/*.original
 .github/
 .clinerules/
 .mvn/
