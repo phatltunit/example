@@ -1,0 +1,4 @@
+UPDATE DEMO_BI_DATA
+    SET PENDING_AMOUNT = COALESCE (PENDING_AMOUNT,0) + /*pendingAmount*/0
+WHERE BI_NO = /*biNo*/'BI-001'
+  AND BALANCE - /*pendingAmount*/0 >= 0
